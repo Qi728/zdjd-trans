@@ -1,0 +1,28 @@
+{
+  "name": "rspack-react-ts-starter",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "rspack build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.5",
+    "copy-to-clipboard": "^3.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "sass": "^1.66.0",
+    "sass-loader": "^13.3.2",
+    "zdjd": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rspack/cli": "latest",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "typescript": "^5.0.4"
+  }
+}

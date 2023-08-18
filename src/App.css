@@ -1,0 +1,70 @@
+
+@charset "UTF-8";
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  font-size: 0.1111111111rem;
+  background: white;
+  font-family: Light, BlinkMacSystemFont, -apple-system, "Helvetica Neue", "Segoe UI", Roboto, "Segoe UI", "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Source Han Sans CN", 思源黑体, sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  outline: none;
+}
+
+img[src=""], img:not([src]) {
+  opacity: 0;
+}
+
+address, cite, dfn, em, var {
+  font-style: normal;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+legend {
+  color: #000;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background: url("~@/assets/bg.jpg");
+  background-position: left;
+}
